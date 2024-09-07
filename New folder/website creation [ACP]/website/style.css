@@ -1,0 +1,23 @@
+html{
+    background-color: rgb(219, 215, 220);
+}
+.c2{
+    background-color:rgb(175, 173, 212);
+
+    width:100px;
+    height:40;
+    padding-left: 30px;
+    border:3px;
+    border-color:black;
+}
+.c1{
+  text-align: center;
+  height:40;
+  background-color:rgb(175, 173, 212);
+}
+.c3{
+    width:700;
+    height:110;
+    background-color:rgb(175, 173, 212);
+}
+

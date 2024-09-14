@@ -1,5 +1,8 @@
-html{
-    background-color: rgb(219, 215, 220);
+body{
+    background-image: url('solar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .c2{
     background-color:rgb(175, 173, 212);

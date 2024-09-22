@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"type="text/javascript" charset="utf-8"></script>
+
+<script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"type="text/javascript" charset="utf-8">
+    </script>
+    </head>
+    <body>
+        <div style="width:100vw; height:100vw" id="mapConatiner"></div>
+        <script>
+            var platform   = new H.service.Platform({'apikey':'{{apikey}}'});
+             const lat = {{data.latitute}};
+             const lon = {{data.longitude}};
+
+            var defaultlayers = platform.creatDefaultlayers();
+            var map = new H.Map(
+                document
+            )
+        </script>
+    </body>
+
+</html>
